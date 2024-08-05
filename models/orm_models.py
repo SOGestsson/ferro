@@ -12,6 +12,7 @@ class RioItems(Base):
     id = Column(Integer, primary_key=True)
     buy_freq = Column(Integer, nullable = False)
     del_time = Column(Integer, nullable = False)
+    innkaupum_haett = Column(Integer, nullable = False)
 
 
 # Create a configured "Session" class
